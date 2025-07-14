@@ -1,0 +1,8 @@
+scikit-learn 
+sentence-transformers 
+faiss-cpu 
+openai 
+langchain 
+streamlit
+
+
