@@ -2,7 +2,7 @@ import os
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
-
+  
 def build_index(docs_file):
     model = SentenceTransformer('all-MiniLM-L6-v2')
     with open(docs_file) as f:
@@ -16,4 +16,6 @@ def build_index(docs_file):
     np.save('data/docs.npy', np.array(docs))
 
 if __name__ == '__main__':
-    build_index('../data/docs.txt')
+    build_index('data/docs.txt')
+
+
