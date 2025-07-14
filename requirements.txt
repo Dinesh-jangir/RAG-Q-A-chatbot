@@ -4,5 +4,6 @@ faiss-cpu
 openai 
 langchain 
 streamlit
-
-
+pandas
+numpy
+matplotlib
