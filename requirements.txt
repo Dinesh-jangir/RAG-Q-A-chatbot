@@ -1,9 +1,6 @@
-scikit-learn 
-sentence-transformers 
-faiss-cpu 
-openai 
-langchain 
 streamlit
 pandas
-numpy
-matplotlib
+python-dotenv
+chromadb
+faiss-cpu             
+google-generativeai
